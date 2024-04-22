@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    color: rgb(238, 229, 241)
+}
+
+body {
+    background-color: rgba(16, 15, 16, 0.943);
+    font-family: 'Open Sans', sans-serif;
+    font: size 1px;
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em
+}
+
+h3 {
+    font-size: 3em
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position:center center;
+    background-color: rgb(122, 51, 147);
+    box-shadow: 2px 2px 2px rgb(238, 229, 241); 
+}
+
+button:hover {
+    background-color: rgba(55, 124, 229, 0.813);
+    box-shadow: 2px 2px 2px rgb(238, 229, 241);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(14, 14, 14, 0.95);
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(243, 239, 245);
+    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+header .nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: right;
+}
+
+header a {
+    padding: 15px 30px;
+    text-decoration:none;
+    color: rgb(251, 244, 247);
+    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+}
+
+header a:hover{
+    color: rgb(225, 41, 102);
+    }
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.hacetesocioya { 
+    position:absolute;
+    bottom: 0%; 
+    left: 45%;
+    right: 0%;
+    top: 120%;
+
+
+}
+
+#nuestra-comunidad.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h2{
+    color:rgb(227, 101, 191);  
+    font-size: 4em;
+    text-align: center;
+    padding: 20px; 12px;
+
+}
+
+#nuestra-comunidad{
+    background-color: rgba(14, 14, 14, 0.943);
+    padding: 20px;10px;
+    margin:0%
+    text-align: center;
+}
+
+#nuestra-comunidad p{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px; 40px;
+
+}
+
+#Nuestras-clases .container{
+    background-color: rgba(40, 36, 36, 0.943);
+    padding: 20px;0px;
+    margin:0%;
+    text-align: center;
+}
+
+#Nuestras-clases p{
+    display: none
+
+}
+
+#Nuestras-clases .carta{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+
+}
+
+.carta:first-child{  
+   background-image:
+   url("IMAGENES/funcional1.jpg");
+
+     }
+
+.carta:nth-child(2){
+    background-image:
+    url("IMAGENES/cycle1.jpg");
+}
+.carta:nth-child(3){
+    background-image:
+    url("IMAGENES/HIIT1.jpg");
+}
+
+.carta:nth-child(4){
+    background-image: 
+    url("IMAGENES/musculacion1.jpg");
+}
+
+
+
+#Nuestras-Sedes{
+    background-color: rgba(14, 14, 14, 0.943);
+    padding: 20px;
+    text-align: center;
+}
+
+#Nuestras-Sedes .container{
+    text-align: center;
+    padding: 20px 10px;
+
+}
+#Nuestras-Sedes p{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px; 12px;
+}
+
+#Nuestros-planes{
+    background-color: rgb(194, 126, 171);
+    padding: 20px;
+    text-align: center;
+    margin: 20%;
+}
+
+#Nuestros-planes h2{
+    font-weight: bold;
+    color: rgba(14, 14, 17, 0.943)
+    }
+
+#Nuestros-planes .container{
+    text-align: center center;
+    padding: 5px; 
+
+}
+
+#Nuestros-planes .carta{
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(247, 237, 251);
+    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    border-radius: 12px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--Petroleo);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer a{
+    display: flex;
+    border: 1px solid;
+    text-decoration: none;
+    border-color: transparent;
+    color: var(--blanco);
+    align-items: center;
+}
