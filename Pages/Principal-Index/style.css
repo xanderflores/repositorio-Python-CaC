@@ -122,27 +122,27 @@ h2{
     color:rgb(227, 101, 191);  
     font-size: 4em;
     text-align: center;
-    padding: 20px; 12px;
+    padding: 20px;
 
 }
 
 #nuestra-comunidad{
     background-color: rgba(14, 14, 14, 0.943);
-    padding: 20px;10px;
-    margin:0%
+    padding: 20px;
+    margin:0%;
     text-align: center;
 }
 
 #nuestra-comunidad p{
     font-size: 1em;
     text-align: center;
-    padding: 20px; 40px;
+    padding: 20px;
 
 }
 
 #Nuestras-clases .container{
     background-color: rgba(40, 36, 36, 0.943);
-    padding: 20px;0px;
+    padding: 20px;;
     margin:0%;
     text-align: center;
 }
@@ -195,7 +195,7 @@ h2{
 #Nuestras-Sedes p{
     font-size: 1em;
     text-align: center;
-    padding: 20px; 12px;
+    padding: 20px;
 }
 
 #Nuestros-planes{
