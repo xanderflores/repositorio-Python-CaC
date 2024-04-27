@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    color: rgb(238, 229, 241)
-}
-
 body {
     background-color: rgba(16, 15, 16, 0.943);
     font-family: 'Open Sans', sans-serif;
@@ -47,16 +42,20 @@ button:hover {
 }
 
 .container{
-    max-width: 1400px;
+    height: 100%;
+    width: 100%;
     margin: auto;
 }
 
 header {
     background-color: rgba(14, 14, 14, 0.95);
     padding: 0px;
-    margin: 0%;
+    margin: 0;
     text-align: center;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header .logo {
@@ -97,6 +96,12 @@ header a:hover{
     color: rgb(225, 41, 102);
 }
 
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*Cards de la sescion sedes*/
 
@@ -105,7 +110,10 @@ header a:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:1rem;
-    
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .card{
@@ -160,16 +168,21 @@ h4{
 
 /* Estilos para dispositivos móviles pequeños (hasta 600px) */
 @media only screen and (max-width: 700px) {
+    
+    
     .nav{
         display: flex !important;
         flex-direction:column !important;
+      
     }
     .container{
         display: grid;
         align-items: center;
+        justify-content: center;
         gap: 1rem;
-        margin-left: 3.5rem;
+        margin-left: 1rem;
         grid-template-columns: repeat(1,3fr);
         overflow: visible;
     }
+
 }
