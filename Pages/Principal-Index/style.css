@@ -1,17 +1,25 @@
 * {
     box-sizing: border-box;
     color: rgb(238, 229, 241)
+    
 }
 
+
+
 body {
-    background-color: rgba(16, 15, 16, 0.943);
+    background-color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font: size 1px;
 }
 
 
 h1 {
-    font-size: 4em;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(241, 14, 169);
+
+   
 }
 
 h2 {
@@ -23,74 +31,76 @@ h3 {
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.20em;
     text-align: center;
 }
 
 
 
-button {
+.container button {
     font-size: 1em;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    position:center center;
+    text-align: justify;
     background-color: rgb(122, 51, 147);
     box-shadow: 2px 2px 2px rgb(238, 229, 241); 
 }
 
 button:hover {
-    background-color: rgba(55, 124, 229, 0.813);
+    background-color: rgba(230, 29, 180, 0.925);
     box-shadow: 2px 2px 2px rgb(238, 229, 241);
 }
 
 .container{
     max-width: 1400px;
-    margin: auto;
+    margin: 0%;
 }
 
 header {
-    background-color: rgba(14, 14, 14, 0.95);
-    padding: 0px;
+    background-color: rgba(14,14,14,);
+    padding: 10px 0%;
     margin: 0%;
-    text-align: center;
+    text-align:right;
 }
 
 header .logo {
     margin: 0;
-    padding: 25px 30px;
-    text-align: left;
-    font-size: 3em;
+    padding: 2px 60px;
+    font-size: 2em;
     font-weight: bold;
-    color: rgb(243, 239, 245);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    color: rgb(238, 229, 241);
+    text-shadow: 3px 2px 2px rgb(241, 14, 169);
+    background-image:url("IMAGENES/LOGO\ FUEGO.jpg");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left;
 
 }
 
 header .container{
     display:flex;
-    flex-direction: column;
+    flex-direction:row;
     align-items:center;
-
+    justify-content:space-around;
 }
 
-header .nav {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+header .nav{
+    flex-wrap: wrap;
     width: 100%;
-    align-items: right;
+    height: 7%;
+    
 }
 
 header a {
-    padding: 15px 30px;
+    padding: 15px 20px;
     text-decoration:none;
-    color: rgb(251, 244, 247);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    color: rgb(238, 229, 241);
+    text-shadow: 2px 2px 2px rgb(241, 14, 169);
 }
 
 header a:hover{
-    color: rgb(225, 41, 102);
+    color:rgb(241, 14, 169);
     }
 
 video{
@@ -105,7 +115,7 @@ div.hacetesocioya {
     left: 45%;
     right: 0%;
     top: 120%;
-
+    
 
 }
 
@@ -119,121 +129,229 @@ div.hacetesocioya {
 
 
 h2{
-    color:rgb(227, 101, 191);  
+    color:rgb(241, 14, 169);  
     font-size: 4em;
     text-align: center;
-    padding: 20px;
+    padding: 20px; 12px;
 
 }
 
 #nuestra-comunidad{
-    background-color: rgba(14, 14, 14, 0.943);
-    padding: 20px;
-    margin:0%;
+    background-color: rgba(14, 14, 14,);
+    padding: 20px;10px;
+    margin:0%
     text-align: center;
 }
 
 #nuestra-comunidad p{
     font-size: 1em;
     text-align: center;
-    padding: 20px;
-
+    padding: 20px; 40px;
+    
+    
 }
 
-#Nuestras-clases .container{
-    background-color: rgba(40, 36, 36, 0.943);
-    padding: 20px;;
+#Nuestras-clases .container {
+    background-color: rgb(35, 35, 35);
+    padding: 20px;0px;
     margin:0%;
     text-align: center;
+  
 }
 
-#Nuestras-clases p{
-    display: none
-
+.slide-box {
+    width: 90%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
 }
 
-#Nuestras-clases .carta{
+.slide-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite ease-in-out;
+}
+
+.slide-box ul li {
+    list-style: none;
+    width: 100%;
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 200px;
+}
+
+.texto h3 {
+    font-size: 3em;
+    margin-bottom: 35px;
+    text-shadow: rgb(11, 11, 11) 3px 3px;
+}
+
+.slide-box img {
+    width: 100%;
+}
+  
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+
+
+#nuestras-sedes{
+    background-color:rgb(23, 22, 23); 
+    padding: 30px 250px;
+    text-align: center;
+   }
+
+   .container .carta{
     background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    margin:30px;
+    border-radius: 1.75rem;
+    display: flexbox;
+   }
 
-}
-
-.carta:first-child{  
-   background-image:
-   url("IMAGENES/funcional1.jpg");
-
-     }
-
-.carta:nth-child(2){
-    background-image:
-    url("IMAGENES/cycle1.jpg");
-}
 .carta:nth-child(3){
     background-image:
-    url("IMAGENES/HIIT1.jpg");
+    url("IMAGENES/sederamos.jpg");
 }
-
 .carta:nth-child(4){
-    background-image: 
-    url("IMAGENES/musculacion1.jpg");
+    background-image:
+    url("IMAGENES/sede-caseros.jpg");
 }
 
+.carta:nth-child(5){
+    background-image:
+    url("IMAGENES/sede-ramos.jpg");
+}
 
+.carta h3 {
+    text-shadow: rgb(11, 11, 11) 5px 5px;
+    text-align: center; 
+}
 
-#Nuestras-Sedes{
-    background-color: rgba(14, 14, 14, 0.943);
+#planes {
     padding: 20px;
-    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-image: url("IMAGENES/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+       
 }
 
-#Nuestras-Sedes .container{
-    text-align: center;
-    padding: 20px 10px;
-
-}
-#Nuestras-Sedes p{
-    font-size: 1em;
-    text-align: center;
-    padding: 20px;
-}
-
-#Nuestros-planes{
-    background-color: rgb(194, 126, 171);
-    padding: 20px;
-    text-align: center;
-    margin: 20%;
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-shadow: rgb(11, 11, 11) 1px 1px;
+    }
+    
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.75rem;
 }
 
-#Nuestros-planes h2{
-    font-weight: bold;
-    color: rgba(14, 14, 17, 0.943)
+.card {
+    background-color:  rgb(178, 134, 194);;
+    padding: 2rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .card-header {
+    flex-basis: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(238, 229, 241);
+    text-shadow: 2px 2px 2px rgb(23, 22, 23); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card .card-body {
+    flex-basis: 100%;
+    margin-top: 2rem; 
+}
+
+.card .card-body p {	
+    margin:0;
+    font-size: 3.5rem; 
+    color:rgb(37, 35, 37);
+    border-style:inset;
+    border-color: rgb(154, 58, 185);
+    border-width: 5
+    px;
+    text-decoration:dashed;
+    font-family:sans-serif;
     }
 
-#Nuestros-planes .container{
-    text-align: center center;
-    padding: 5px; 
+.card .card-body a {
+    text-decoration:none;
+    color: rgb(241, 14, 169);    
+    display:inline-block;
+    padding: 0.7rem 1.75rem;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 1.75rem;
+    margin-top: 3rem;
+    transition: background-color 0.4s ease-in, color 0.4s ease-in;
+    }
 
+.card .card-body a:hover {
+    background-color: transparent;
+    border-color: rgba(14,14,14,);
+    color: rgb(241, 14, 169);
 }
 
-#Nuestros-planes .carta{
-    padding: 10px 30px;
-    font-size: 1em;
-    font-weight: bold;
-    color: rgb(247, 237, 251);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
-    border-radius: 12px;
+.card .card-footer {
+    flex-basis: 100%;
+    color: rga(0,0,0);
+    align-self: flex-end;
+    text-align: end;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    position: center center; 
+    
+}
+
+#encontranos .container{
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 10%;
+    
 }
 
 .footer{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: var(--Petroleo);
+    background-color: rgb(33, 32, 33);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-image: url("IMAGENES/l");
 }
-.footer a{
+.footer div{
     display: flex;
     border: 1px solid;
     text-decoration: none;
@@ -241,3 +359,6 @@ h2{
     color: var(--blanco);
     align-items: center;
 }
+
+
+
