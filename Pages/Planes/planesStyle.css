@@ -1,0 +1,188 @@
+body {
+    background-color: rgba(16, 15, 16, 0.943);
+    font-family: 'Open Sans', sans-serif;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(225, 41, 102);;
+    font-size: 3em
+}
+
+h3 {
+    font-size: 3em
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position:center center;
+    background-color: rgb(122, 51, 147);
+    box-shadow: 2px 2px 2px rgb(238, 229, 241); 
+}
+
+button:hover {
+    background-color: rgba(55, 124, 229, 0.813);
+    box-shadow: 2px 2px 2px rgb(238, 229, 241);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(14, 14, 14, 0.95);
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(243, 239, 245);
+    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    height: 100%;
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+}
+
+header .nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    padding: 15px 30px;
+    text-decoration:none;
+    color: rgb(251, 244, 247);
+    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+}
+
+header a:hover{
+    color: rgb(225, 41, 102);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Cards de la sescion sedes*/
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card{
+    border-color: rgb(225, 41, 102) ;
+}
+
+.card-body{
+    border-color: rgb(225, 41, 102) ;
+    background-color: black;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: rgb(225, 41, 102);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 41, 102);
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(225, 41, 102);
+}
+
+
+/*Seccion para el footer*/
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--Petroleo);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer a{
+    display: flex;
+    border: 1px solid;
+    text-decoration: none;
+    border-color: transparent;
+    color: var(--blanco);
+    align-items: center;
+}
+
+/* Estilos para dispositivos móviles pequeños (hasta 600px) */
+@media only screen and (max-width: 700px) {
+    
+    
+    .nav{
+        display: flex !important;
+        flex-direction:column !important;
+      
+    }
+    .container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-left: 1rem;
+        grid-template-columns: repeat(1,3fr);
+        overflow: visible;
+    }
+
+}
