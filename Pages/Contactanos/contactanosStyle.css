@@ -108,7 +108,7 @@ body{
 .container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap:1rem;
     margin-left: 0;
     margin-right: 0;
@@ -116,34 +116,16 @@ body{
     padding-right: 0;
 }
 
-.card{
-    border-color: rgb(225, 41, 102) ;
+
+.btn{
+    margin-top: 1rem;
+    width: 100%;
 }
 
-.card-body{
-    border-color: rgb(225, 41, 102) ;
-    background-color: black;
-}
-.card-title{
-    text-align: center;
-}
-.card-text{
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-}
-h4{
+h4,label{
     color: rgb(225, 41, 102);
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(225, 41, 102);
-    font-weight: bold;
-}
-.btn:hover{
-    background-color: white;
-    color:rgb(225, 41, 102);
-}
+
 
 
 /*Seccion para el footer*/
