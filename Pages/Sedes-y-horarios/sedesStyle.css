@@ -1,4 +1,6 @@
 body {
+    
+ 
     background-color: rgba(16, 15, 16, 0.943);
     font-family: 'Open Sans', sans-serif;
    
@@ -44,7 +46,7 @@ button:hover {
 .container{
     height: 100%;
     width: 100%;
-    margin: auto;
+   
 }
 
 header {
@@ -53,6 +55,7 @@ header {
     margin: 0;
     text-align: center;
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,13 +63,16 @@ header {
 
 header .logo {
     margin: 0;
-    padding: 25px 30px;
-    text-align: left;
-    font-size: 3em;
+    padding: 2px 60px;
+    font-size: 2em;
     font-weight: bold;
-    color: rgb(243, 239, 245);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
-    height: 100%;
+    color: rgb(238, 229, 241);
+    text-shadow: 3px 2px 2px rgb(241, 14, 169);
+    text-decoration: none;
+    background-image:url("../../IMAGENES/LOGO\ FUEGO.jpg");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left;
 }
 
 header .container{
@@ -74,6 +80,7 @@ header .container{
     flex-direction: column;
     align-items:center;
     height: 100%;
+    width: 100%;
 }
 
 header .nav {
@@ -86,10 +93,11 @@ header .nav {
 }
 
 header a {
-    padding: 15px 30px;
+    margin-top: 0.5rem;
+    padding: 15px 20px;
     text-decoration:none;
     color: rgb(251, 244, 247);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    text-shadow: 2px 2px 2px rgb(241, 14, 169);
 }
 
 header a:hover{
@@ -148,21 +156,21 @@ h4{
 
 /*Seccion para el footer*/
 .footer{
+    margin-top: 2rem;
     bottom: 0;
     width: 100%;
     height: 4rem;
-    background-color: var(--Petroleo);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
-.footer a{
+.footer div{
     display: flex;
     border: 1px solid;
     text-decoration: none;
     border-color: transparent;
-    color: var(--blanco);
+    color: white !important;
     align-items: center;
 }
 

@@ -68,6 +68,7 @@ header {
     margin: 0;
     text-align: center;
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,20 +76,24 @@ header {
 
 header .logo {
     margin: 0;
-    padding: 25px 30px;
-    text-align: left;
-    font-size: 3em;
+    padding: 2px 60px;
+    font-size: 2em;
     font-weight: bold;
-    color: rgb(243, 239, 245);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
-    height: 100%;
+    color: rgb(238, 229, 241);
+    text-shadow: 3px 2px 2px rgb(241, 14, 169);
+    text-decoration: none;
+    background-image:url("../../IMAGENES/LOGO\ FUEGO.jpg");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left;
 }
 
-header .container {
-    display: flex;
+header .container{
+    display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     height: 100%;
+    width: 100%;
 }
 
 header .nav {
@@ -101,15 +106,15 @@ header .nav {
 }
 
 header a {
-    padding: 15px 30px;
-    text-decoration: none;
+    margin-top: 0.5rem;
+    padding: 15px 20px;
+    text-decoration:none;
     color: rgb(251, 244, 247);
-    text-shadow: 2px 2px 2px rgb(123, 19, 157);
+    text-shadow: 2px 2px 2px rgb(241, 14, 169);
 }
 
-header a:hover {
+header a:hover{
     color: rgb(225, 41, 102);
-
 }
 
 body {
