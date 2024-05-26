@@ -169,7 +169,7 @@ h2{
 }
 
 .slide-box {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
@@ -189,7 +189,7 @@ h2{
 }
 
 .texto {
-    position: absolute;
+    position:absolute;
     text-align: center;
     padding: 0 250px;
     top: 300px;
@@ -219,6 +219,7 @@ h2{
     75% { margin-left: -300%; }
     100% { margin-left: -300%; }
 }
+
 
 
 #nuestras-sedes{
@@ -255,6 +256,8 @@ h2{
     text-shadow: rgb(11, 11, 11) 5px 5px;
     text-align: center; 
 }
+
+
 
 #planes {
     padding: 20px;
@@ -372,22 +375,49 @@ h2{
 
 /* Estilos para dispositivos móviles pequeños (hasta 600px) */
 @media only screen and (max-width: 700px) {
-
-
-    .nav {
+    
+    
+    .nav{
         display: flex !important;
-        flex-direction: column !important;
-
+        flex-direction:column !important;
+      
     }
-
-    .container {
+    .container{
         display: grid;
         align-items: center;
         justify-content: center;
         gap: 1rem;
         margin-left: 1rem;
-        grid-template-columns: repeat(1, 3fr);
+        grid-template-columns: repeat(1,3fr);
         overflow: visible;
     }
 
+    .slide-box{
+        width: 100%;
+    }
+       
+    .container h2{
+        font-size: 40px;
+    }
+       
+    .texto {
+    top:50px;
+    padding: 50px 80px;
+    }
+
+    .texto h3 {
+    font-size: 15px;
+    margin-bottom: 1px;
+    }
+  
+    .texto p {
+    font-size: 10px;
+    }
+
+
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.75rem;
+    }
 }
