@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     color: rgb(238, 229, 241)
-    
 }
 
 
@@ -18,8 +17,6 @@ h1 {
     text-align: center;
     margin-top: 100px;
     color: rgb(241, 14, 169);
-
-   
 }
 
 h2 {
@@ -149,8 +146,7 @@ h2{
     color:rgb(241, 14, 169);  
     font-size: 4em;
     text-align: center;
-    padding: 20px, 12px;
-
+    padding: 20px;
 }
 
 #nuestra-comunidad{
@@ -204,11 +200,7 @@ h2{
     align-items: center;
     justify-content: center;
 }
-#miBoton:hover{
-    background-color: aliceblue;
-    color:rgb(241, 14, 169);  ;
 
-}
 
 .texto h3 {
     font-size: 3em;
@@ -250,7 +242,7 @@ h2{
     padding: 20px;
     margin:30px;
     border-radius: 1.75rem;
-    display: flexbox;
+    display:flexbox;
    }
 
 .carta:nth-child(3){
